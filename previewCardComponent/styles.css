@@ -31,7 +31,7 @@ body {
 
 .image-container {
     background: var(--white);
-    width: 600px;
+    width: 620px;
     height: 500px;
     display: flex;
     align-items: center;
@@ -56,14 +56,15 @@ body {
 }
 
 .title {
-    font-size: 0.8em;
     font-family: var(--monserrat);
+    color: var(--dark-grayish-blue);
 }
 
 .product-name {
     font-family: var(--fraunces);
     font-size: 2.6em;
     font-weight: 900;
+    color: var(--very-dark-blue);
     width: 242px;
     position: relative;
     top: -28px;
@@ -71,6 +72,7 @@ body {
 
 .description {
     font-family: var(--monserrat);
+    color: var(--Dark-cyan);
     width: 246px;
     font-size: 1.1em;
     position: relative;
@@ -91,11 +93,45 @@ body {
     font-family: var(--fraunces);
     height: 48px;
     color: var(--Dark-cyan);
-    font-size: 2.2em;
+    font-size: 2em;
     font-weight: bold;
     position: relative;
     top: -41px;
 }
+
+.old-price {
+    font-family: var(--fraunces);
+    position: relative;
+    display: flex;
+    top: -12px;
+    left: -28px;
+    text-decoration: line-through;
+}
+
+.boton {
+    background-color: var(--Dark-cyan);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: 600;
+    height: 40px;
+}
+
+.primary-button {
+    position: relative;
+    top: -30px;
+}
+
+.shopping-cart {
+    position: absolute;
+    left: 65px;
+    bottom: 13px;
+
+}
+
 
 
 
