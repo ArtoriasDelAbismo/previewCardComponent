@@ -47,6 +47,10 @@ body {
     border-bottom-left-radius: 16px;
 }
 
+.mobile-image {
+    display: none;
+}
+
 .text {
     display: flex;
     flex-direction: column;
@@ -134,37 +138,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution {
     font-size: 11px; text-align: center; 
     }
@@ -172,3 +145,115 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%); 
     }
+
+
+
+@media screen and (max-width: 620px){
+
+    main {
+        width: 620px;
+    }
+
+    html {
+        width: 620px;
+    }
+
+    body {
+        width: 620px;
+    }
+    
+    .main-container {
+        width: 620px;
+        height: 982px;
+
+    }
+
+    .product-image{
+        display: none;
+    }
+
+    .product-name {
+        width: 460px;
+        font-size: 3.6em;
+    }
+        
+    .mobile-image {
+        width: 550px;
+        display: block;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+    }
+
+    .image-container {
+        width: 550px;
+        height: 918px;
+        flex-direction: column;
+    }
+
+    .text {
+        width: 90%;
+        height: 460px;
+        padding: 26px;
+    }
+
+    .description {
+        width: 466px;
+        font-size: 1.6em;
+        top: -78px;
+    }
+
+    .price {
+        height: 75px;
+        top: -96px;
+        font-size: 1.7em;
+    }
+
+    .old-price {
+        top: 0px;
+        left: -196px;
+    }
+
+    .primary-button {
+        width: 100%;
+        top: -82px;
+    }
+
+    .boton {
+        height: 58px;
+        font-size: 1.6em;
+    }
+
+    .shopping-cart {
+        left: 162px;
+        bottom: 21px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
